@@ -10,43 +10,8 @@ public class TVRemote {
         this.color = color;
     }
 
-    /*channelUp
-            channelDown
-    turnOn
-            turnOff
-            volumeUp
-    volumeDown*/
-
     public String getColor() {
         return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getChannel() {
-        return channel;
-    }
-
-    public void setChannel(int channel) {
-        this.channel = channel;
-    }
-
-    public int getVolume() {
-        return volume;
-    }
-
-    public void setVolume(int volume) {
-        this.volume = volume;
-    }
-
-    public boolean isTurnOn() {
-        return on;
-    }
-
-    public void setTurnOn(boolean turnOn) {
-        on = turnOn;
     }
 
     public void turnOn() {
